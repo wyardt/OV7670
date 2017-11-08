@@ -569,7 +569,6 @@ void set_Cmos7670reg(void)
 unsigned char Cmos7670_init(void)
 {
 	unsigned char mmm;	
-	unsigned int i=0;
 
 	mmm=0x80;
 	if(0!=wrOV7670Reg(0x12, mmm)) 

@@ -397,7 +397,6 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
   */
 int main(void)
 {
-  static unsigned long TimerCnt = 0;
   static unsigned int temp7670 = 0;
   uint8_t ID_reg[] = {0x0a,0xff,0xff,0xff};
   uint8_t recv[5] = {0, 0, 0, 0, 0};
