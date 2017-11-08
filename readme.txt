@@ -1,0 +1,1 @@
+Use STM32Cube_FW_F4_V1.16.0 as the HAL driver.
