@@ -12,7 +12,7 @@ WR                PG10
 Vsync             PB7
 /OE               GND
 PWDN              GND(if exists)
-/RST               not connected
+/RST              not connected(better reset before using)
 
 Addition, use a rubber band to bind all the control signal wires together, otherwise it may interfere
 the data lines which would cause the wrong image displayed.
